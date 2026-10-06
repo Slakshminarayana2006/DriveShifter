@@ -22,8 +22,8 @@ function App() {
           <Route path='/transfer' element={<ProtectedRoute><Transfer /></ProtectedRoute>} />
           <Route path='/drive' element={<ProtectedRoute><Drive /></ProtectedRoute>} />
           <Route path='/history' element={<ProtectedRoute><History /></ProtectedRoute>} />
-          <Route path='/privacy' element={<ProtectedRoute><PrivacyPolicy /></ProtectedRoute>} />
-          <Route path='/terms' element={<ProtectedRoute><Terms /></ProtectedRoute>} />
+          <Route path='/privacy' element={<PrivacyPolicy />} />
+          <Route path='/terms' element={<Terms />} />
         </Route>
           <Route path='/login' element={<Login />} />
       </Routes>
