@@ -284,7 +284,7 @@ export default function Login() {
                         By continuing you agree to DriveShifter's{" "}
 
                         <a
-                            href="#"
+                            href="/terms"
                             className="font-medium text-slate-500 underline underline-offset-2 hover:text-teal-600"
                         >
                             Terms
@@ -293,7 +293,7 @@ export default function Login() {
                         {" "}and{" "}
 
                         <a
-                            href="#"
+                            href="/privacy"
                             className="font-medium text-slate-500 underline underline-offset-2 hover:text-teal-600"
                         >
                             Privacy Policy
