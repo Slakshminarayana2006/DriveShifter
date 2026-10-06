@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import { Navigate, Route, Routes } from 'react-router'
 import Login from './pages/Login'
-import Home from './pages/Home'
 import Dashboard from './pages/Dashboard';
 import Transfer from './pages/Transfer';
 import ProtectedRoute from './components/ProtectedRoute'
