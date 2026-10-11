@@ -104,7 +104,7 @@ const driveCallback = asyncHandler(async (req, res, next) => {
             }
         });
 
-        return res.redirect("http://localhost:5173/dashboard");
+        return res.redirect("https://drive-shifter.vercel.app/dashboard");
 
     } catch (error) {
         next(error);
