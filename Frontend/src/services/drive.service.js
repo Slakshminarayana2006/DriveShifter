@@ -18,7 +18,7 @@ const getFiles = async () => {
 
 const getFilesByFolder = async(folderId) => {
     try {
-        const response = await api.get(`api/drive/files/${folderId}`);
+        const response = await api.get(`/api/drive/files/${folderId}`);
         return response.data;
     } catch (error) {
         console.log(error.message);
@@ -28,7 +28,7 @@ const getFilesByFolder = async(folderId) => {
 
 const getFileDetails = async(fileId) => {
     try {
-        const response = await api.get(`api/drive/file/${fileId}`);
+        const response = await api.get(`/api/drive/file/${fileId}`);
         return response.data;
     } catch (error) {
         console.log(error.message);
