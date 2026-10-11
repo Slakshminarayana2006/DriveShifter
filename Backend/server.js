@@ -18,7 +18,7 @@ const dashboardRoutes = require('./routes/dashboard.route')
 
 app.use(cors(
     {
-        origin : "https://drive-shifter.vercel.app/",
+        origin : "https://drive-shifter.vercel.app",
         credentials : true
     }
 ));
